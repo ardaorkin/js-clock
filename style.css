@@ -31,7 +31,7 @@ body {
 }
 
 #hour {
-  width: 10px;
+  width: 2%;
   height: 130%;
   background-color: black;
   position: absolute;
@@ -40,7 +40,7 @@ body {
 }
 
 #minute {
-  width: 10px;
+  width: 2%;
   height: 170%;
   background-color: black;
   position: absolute;
@@ -49,7 +49,7 @@ body {
 }
 
 #second {
-  width: 5px;
+  width: 1%;
   height: 190%;
   background-color: red;
   position: absolute;

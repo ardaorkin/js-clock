@@ -13,5 +13,4 @@ setInterval(function () {
   hourHand.style.transform = `rotate(${hour * 30 - 360}deg)`;
   minuteHand.style.transform = `rotate(${minute * 6 - 360}deg)`;
   secondHand.style.transform = `rotate(${second * 6 - 360}deg)`;
-  console.log(second);
 }, 1000);
