@@ -1,58 +1,47 @@
 body {
-  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
 }
 
-#clock {
-  background-image: url("clock_bck.png");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 88%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 75%;
-  height: 75%;
-  border: 15px solid red;
-  border-radius: 100%;
+#dial span {
+  font: 26px Monaco, MonoSpace;
+  height: 25%;
+  position: absolute;
+  top: 6%;
+  width: 20%;
+  transform-origin: bottom center;
 }
 
-#container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  transform: rotate(180deg);
-  width: 100%;
-  height: 20%;
+#hands {
+  position: absolute;
+  top: 30%;
+  width: 20%;
+  height: 100%;
 }
 
 #hour {
   width: 2%;
-  height: 130%;
+  height: 10%;
   background-color: black;
   position: absolute;
   transform-origin: top;
-  top: 50%;
 }
 
 #minute {
   width: 2%;
-  height: 170%;
+  height: 15%;
   background-color: black;
   position: absolute;
   transform-origin: top;
-  top: 50%;
 }
 
 #second {
   width: 1%;
-  height: 190%;
+  height: 20%;
   background-color: red;
   position: absolute;
   transform-origin: top;
-  top: 50%;
 }
